@@ -39,6 +39,19 @@ brew update
 brew upgrade swiftmac
 ```
 
+## Maintainers
+
+To update the formula after a new SwiftMac release:
+
+```bash
+cd swiftmac
+make update-brew
+```
+
+This automatically updates the version, URL, and SHA256 checksum in the formula.
+
+See [Contributing.org](https://github.com/robertmeta/swiftmac/blob/main/Contributing.org) for detailed release process.
+
 ## More Information
 
 See the [SwiftMac repository](https://github.com/robertmeta/swiftmac) for full documentation.
