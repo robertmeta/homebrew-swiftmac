@@ -41,16 +41,16 @@ brew upgrade swiftmac
 
 ## Maintainers
 
-To update the formula after a new SwiftMac release:
+To update the formula after a new SwiftMac release, run the following from the **SwiftMac repository** (not this tap):
 
 ```bash
-cd swiftmac
+cd /path/to/swiftmac
 make update-brew
 ```
 
 This automatically updates the version, URL, and SHA256 checksum in the formula.
 
-See [Contributing.org](https://github.com/intelligrit/swiftmac/blob/main/Contributing.org) for detailed release process.
+See [Contributing.org](https://github.com/intelligrit/swiftmac/blob/main/Contributing.org) for the detailed release process.
 
 ## More Information
 
